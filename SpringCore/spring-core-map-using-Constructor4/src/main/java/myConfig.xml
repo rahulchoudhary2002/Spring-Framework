@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+
+	<bean id="myRes" class="jsp.springore.Restaurant">
+	<property name="name" value="mehaganas"></property>
+	<property name="location" value="btm"></property>
+	<property name="dish">
+		<map>
+		<entry key="101" value="biriyani"></entry>
+		<entry key="201" value="salad"></entry>
+		
+		
+		</map>
+		
+	
+	</property>
+	
+	
+	
+</bean>
+    
+
+</beans>

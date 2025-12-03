@@ -7,16 +7,23 @@
             http://www.springframework.org/schema/context
             http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
-<bean id="myEngine" class="jsp.springcore.Engine"/>
-<bean id="myCar" class="jsp.springcore.Car">
-
-<property name="engine" ref="myEngine"></property>
-
-
+<bean id="myShop" class="jsp.springcore.constructors.Shop">
+	<constructor-arg value="Zudio"></constructor-arg>
+	<constructor-arg  value="btm"></constructor-arg>
+	<constructor-arg >
+		<map>
+		<entry key="101" value="shirt"></entry>
+		<entry key="201" value="jeans"></entry>
+		
+		
+		</map>
+		
+	
+	
+	</constructor-arg>
+	
+	
+	
 </bean>
-        
-     
-     
-     
-     
 </beans>
+
