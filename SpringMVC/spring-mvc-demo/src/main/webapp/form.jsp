@@ -18,7 +18,7 @@
         <input type="number"  name="age"><br><br>
         
         <label> Gender</label>
-        <input type="text" name="gender">Gender 
+        <input type="text" name="gender"><br><br> 
 
         <button>submit</button>
 	

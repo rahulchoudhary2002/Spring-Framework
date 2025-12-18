@@ -9,10 +9,13 @@
 <body>
 
 <h1>Registraction successfully</h1>
-<h1>Id:${id}</h1>
-<h1>Nd:${name}</h1>
-<h1>age:${age}</h1>
-<h1>gender:${gender}</h1>
+
+
+
+<h1>Id:${student.id}</h1>
+<h1>Nd:${student.name}</h1>
+<h1>age:${student.age}</h1>
+<h1>gender:${student.gender}</h1>
 
 </body>
 </html>
